@@ -21,13 +21,8 @@ def main():
     # Borrow and return books
     print(f"Initial state:\n{book1}\n{book2}\n")
 
-    print("Alice borrows '1984'")
     member1.borrow_book(book1)
     print(f"After borrowing:\n{book1}\n{book2}\n")
-
-    print("Alice returns '1984'")
-    member1.return_book(book1)
-    print(f"After returning:\n{book1}\n{book2}\n")
 
 if __name__ == "__main__":
     main()
